@@ -1,0 +1,29 @@
+#news {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #2c2c2c;
+}
+
+#news h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#newsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#newsContainer div {
+    margin: 10px 0;
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+    background-color: #333;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    color: #f4f4f4;
+}

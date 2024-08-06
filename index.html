@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Fernando Herrera Rodríguez - Portafolio</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/hero.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/skills.css">
+    <link rel="stylesheet" href="styles/education.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/news.css">
+    <link rel="stylesheet" href="styles/game.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#education">Educación</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#news">Noticias</a></li>
+                <li><a href="#game">Juego</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero">
+        <h1>Bienvenido a Mi Portafolio</h1>
+        <p>Soy Michael Fernando Herrera Rodríguez</p>
+    </section>
+    <section id="about">
+        <h2>Sobre Mí</h2>
+        <img src="images/profile.jpg" alt="Michael">
+        <p>Soy ingeniero electrónico con una fuerte pasión por el aprendizaje y el crecimiento...</p>
+    </section>
+    <section id="skills">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>Blockchain</li>
+            <li>Ciberseguridad</li>
+        </ul>
+    </section>
+    <section id="education">
+        <h2>Educación</h2>
+        <ul>
+            <li>Ingeniería Electrónica - Universidad XYZ</li>
+            <li>Bootcamp de Blockchain - Instituto ABC</li>
+            <li>Curso de Ciberseguridad - Google</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contáctame</h2>
+        <form id="contactForm">
+            <label for="name">Nombre:</label>
+            <input id="name" type="text" required>
+            <label for="email">Correo Electrónico:</label>
+            <input id="email" type="email" required>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <section id="news">
+        <h2>Noticias</h2>
+        <div id="newsContainer"></div>
+    </section>
+    <section id="game">
+        <h2>Juego</h2>
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        <div id="scoreBoard">
+            <span id="score">Puntos: 0</span>
+            <span id="level">Nivel: 1</span>
+        </div>
+    </section>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/contact.js"></script>
+    <script src="scripts/game.js"></script>
+    <script src="scripts/news.js"></script>
+</body>
+</html>
