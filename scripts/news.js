@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('https://newsapi.org/v2/everything?q=tecnologia&apiKey=YOUR_NEWS_API_KEY')
+    fetch('https://newsapi.org/v2/everything?q=tecnologia&apiKey=dd838d87ac09417cb0961b0192ab543c')
         .then(response => response.json())
         .then(data => {
             const newsContainer = document.getElementById('newsContainer');
